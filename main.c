@@ -25,7 +25,6 @@ typedef enum {
 	JOYSTICK_DOWN		= DIR_RIGHT
 } joystick_dir_t;
 
-#define JOYSTICK_CUTOFF 7
 #include "async_joystick.h"
 #include "timing.h"
 #include "effects.h"
